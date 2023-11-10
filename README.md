@@ -17,6 +17,25 @@ jika kondisi bernilai True, maka kode di dalam blik if akan dieksekusu. Jika kon
 
 #contoh
 
+# Cek apakah angka 10 lebih besar dari 5
+    if 10 > 5:
+        print("10 lebih besar dari 5")
+    else:
+        print("10 tidak lebih besar dari 5")
+
+# Cek apakah variabel nama berisi string "Beel"
+    if nama == "Beel":
+        print("Halo Beel!")
+    else:
+        print("Halo!")
+
+# Cek apakah variabel nilai siswa lebih besar dari atau sama dengan 75
+    if nilai_siswa >= 75:
+        print("Lulus!")
+    else:
+        print("Tidak lulus.")
+
+
 # Cek apakah nilai siswa lebih besar dari atau sama dengan 90
     if nilai_siswa >= 90:
         print("Predikat A")
